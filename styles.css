@@ -5,10 +5,10 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f2f5;
+    background-color: #ffffff;
 }
 .calculator-container {
-    background-color: white;
+    background-color: rgba(201, 245, 180, 0.493);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
