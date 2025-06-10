@@ -21,8 +21,8 @@ function calculateAge() {
     const today = new Date();
 
     // Validate date
-    if (birthDate.getDate() !== day || 
-        birthDate.getMonth() !== month - 1 || 
+    if (birthDate.getDate() !== day ||
+        birthDate.getMonth() !== month - 1 ||
         birthDate.getFullYear() !== year) {
         errorDiv.innerHTML = 'Please enter a valid date.';
         return;
